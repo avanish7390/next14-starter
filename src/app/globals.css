@@ -26,6 +26,7 @@ a{
 
 
 .container{
+    background-color: var(--bg);
     width: 1536px;
     margin: auto;
     padding-left: 50px;
@@ -33,7 +34,7 @@ a{
     min-height: 100vh;
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
+    justify-content: space-between;
 
     
 }
