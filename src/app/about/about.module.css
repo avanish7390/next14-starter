@@ -59,3 +59,20 @@
       gap: 50px;
     }
   }
+ 
+
+  /* change 768 to 800 */
+
+  @media( max-width:800px ){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .boxes{
+      flex-direction: column;
+      gap: 50px;
+    }
+
+}
