@@ -13,8 +13,8 @@ import styles from "./contact.module.css";
 const ContactPage = () => {
 
 
-  const a = Math.random();
-    console.log(a)
+  // const a = Math.random();
+  //   console.log(a)
 
 
   // const[isClient, setIsclient] = useState(false)
@@ -36,7 +36,7 @@ const ContactPage = () => {
       <div className={styles.formContainer}>
         {/* <HydrationTestNoSSR/> */}
 
-        <div suppressHydrationWarning>{a}</div>
+        {/* <div suppressHydrationWarning>{a}</div> */}
         
         
         <form action="" className={styles.form}>
