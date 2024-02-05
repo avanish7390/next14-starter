@@ -1,5 +1,5 @@
 import PostCard from "@/components/postCard/postCard";
-import { getPosts, getpost } from "@/lib/data";
+import { getPosts } from "@/lib/data";
 import styles from "./blog.module.css";
 
 // FATCH THE DATA WITH AN API

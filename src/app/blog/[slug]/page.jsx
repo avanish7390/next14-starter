@@ -35,22 +35,24 @@ const SinglePostPage = async ({params}) => {
     
     return (
     <div className={styles.container}>
+      {post.img && (
       <div className={styles.imgcontainer}>
         <Image src="https://images.pexels.com/photos/19402529/pexels-photo-19402529/free-photo-of-woman-behind-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" fill  
         className={styles.img}/>
       </div>
+      )}
       <div className={styles.textcontainer}>
-        <h1 className={styles.title}>{post?.title}</h1>
+        <h1 className={styles.title}>{post.title}</h1>
         <div className={styles.detail}>
 
         <Image className={styles.avatar} src="https://images.pexels.com/photos/19402529/pexels-photo-19402529/free-photo-of-woman-behind-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" width={50} height={50}/>
 
-         {post && (
+         {/* {post && (
 
           <Suspense fallback={<div>Loading...</div>}>
             <PostUser userId = {post.userId}/>
           </Suspense>
-          )}
+          )} */}
 
         <div className={styles.detailText}>
           <span className={styles.detailTitle}>Published</span>
@@ -60,8 +62,7 @@ const SinglePostPage = async ({params}) => {
 
 
         </div>
-        <div className={styles.content}>
-          {post?.body}
+        <div className={styles.content}>{post.desc}
         </div>
       </div>
 
