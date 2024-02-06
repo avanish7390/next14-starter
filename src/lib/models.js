@@ -47,7 +47,7 @@ const postSchema = new mongoose.Schema({
         required:true,
     },
 
-    email:{
+    desc:{
         type:String,
         required:true,
     },

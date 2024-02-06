@@ -1,5 +1,5 @@
- import { getUser } from "@/lib/data"
-import styles from "./postUser.module.css"
+ import { getUser } from "@/lib/data";
+import styles from "./postUser.module.css";
 
 
     //FETCH DATA WITH AN API

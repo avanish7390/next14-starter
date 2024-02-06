@@ -1,5 +1,12 @@
 .container{
     display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.texts{
+    display: flex;
     flex-direction: column;
     gap: 10px;
 
