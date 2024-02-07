@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Image from "next/image";
 // import { useEffect, useState } from "react";
 // import dynamic from "next/dynamic";
@@ -6,6 +6,12 @@ import styles from "./contact.module.css";
 // import HydrationTest from "@/components/hydrationTest";
 
 // const HydrationTestNoSSR = dynamic(()=>import("@/components/hydrationTest"),{ssr:false});
+
+
+export const metadata = {
+  title: " Contants Page",
+  description: "Contants Discription ",
+};
 
 
 

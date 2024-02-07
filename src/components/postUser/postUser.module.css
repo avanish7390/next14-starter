@@ -2,7 +2,20 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+
+.texts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
     
+}
+
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+
 }
 
 .texts{
