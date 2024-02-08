@@ -1,13 +1,13 @@
 "use client"
 
-const HydrationTest =() =>{
+const HydrationTest = () => {
+    // const a = Math.random()
 
-    const a = Math.random();
-    console.log(a)
+    // console.log( a )
+  return (
 
-    return(
-        <div>{a}</div>
-    );
-};
+    <div></div>
+  )
+}
 
 export default HydrationTest

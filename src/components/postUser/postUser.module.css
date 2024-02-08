@@ -1,39 +1,24 @@
 .container{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-
-.texts{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .avatar{
-    object-fit: cover;
-    border-radius: 50%;
-
+  object-fit: cover;
+  border-radius: 50%;
 }
-
 .texts{
     display: flex;
     flex-direction: column;
     gap: 10px;
-
-}
-
-.title{
+  }
+  
+  .title{
     color: gray;
     font-weight: bold;
-    
-
-}
-
-
-.username{
-    font-weight: 500px;
-
-}
+  }
+  
+  .username{
+    font-weight: 500;
+  }
