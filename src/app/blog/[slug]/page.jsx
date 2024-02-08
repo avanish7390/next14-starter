@@ -19,7 +19,15 @@ import styles from "./singlepost.module.css";
 //   return res.json();
 // }
 
+export const generateMetadata = async ({params}) =>{
+  const {slug} = params;
+  const Post = await getPost(slug);
+  return {
+    title: Post.title,
+    description: Post.desc,
+  };
 
+}
 
 
 
